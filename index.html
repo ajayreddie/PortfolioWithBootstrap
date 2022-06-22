@@ -1,0 +1,415 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Bootstrap Template</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+
+  </body>
+</head>
+
+<body>
+
+  <!-- Navbar -->
+
+  <br></br>
+  <br></br>
+
+
+  <nav class="navbar navbar-expand-lg bg-light fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Home</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#section01">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#section02">Acadamics</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Certifications
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#section03">Projects</a></li>
+              <li><a class="dropdown-item" href="#section04">Certificates</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#section08">Contact</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" id="myInput" type="text" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+
+
+  <!-- Carousal -->
+
+
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="IMG_20191012_164820-01.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="289257505_788753349203846_8850729323233458064_n.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="WhatsApp Image 2022-06-21 at 6.08.00 PM.jpeg" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+
+  <!-- PROGRESS BAR -->
+
+  <div id="section01" class="container" style="padding-top: 170px;">
+    <h2 class="section-title">Skills</h2>
+
+
+    <div class="progress" style="margin-top: 25px;">
+      <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 10%" aria-valuenow="10"
+        aria-valuemin="0" aria-valuemax="100">HTML</div>
+    </div>
+    <div class="progress" style="margin-top: 25px;">
+      <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 25%" aria-valuenow="25"
+        aria-valuemin="0" aria-valuemax="100">CSS</div>
+    </div>
+
+    <div class="progress" style="margin-top: 25px;">
+      <div class="progress-bar progress-bar-striped bg-info" role="progressbar" style="width: 50%" aria-valuenow="50"
+        aria-valuemin="0" aria-valuemax="100">JAVASCRIPT</div>
+    </div>
+
+    <div class="progress" style="margin-top: 25px;">
+      <div class="progress-bar progress-bar-striped bg-warning" role="progressbar" style="width: 75%" aria-valuenow="75"
+        aria-valuemin="0" aria-valuemax="100">PYTHON</div>
+    </div>
+    <div class="progress" style="margin-top: 25px;">
+      <div class="progress-bar progress-bar-striped bg-danger" role="progressbar" style="width: 100%"
+        aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">SQL</div>
+    </div>
+
+  </div>
+
+
+
+  <!-- Table......... -->
+
+  <div id="section02" class="container" style="padding-top: 170px;">
+    <h2 class="section-title">Acadamics</h2>
+
+    <table class="table">
+      <thead>
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">College Name</th>
+          <th scope="col">Degree</th>
+          <th scope="col">Grade</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">1</th>
+          <td>Northeastern University</td>
+          <td>Masters in Software Engineering</td>
+          <td>3.4</td>
+        </tr>
+        <tr>
+          <th scope="row">2</th>
+          <td>JBIT</td>
+          <td>Bachelors in Electronics</td>
+          <td>7.2</td>
+        </tr>
+        <tr>
+          <th scope="row">3</th>
+          <td>NRI College</td>
+          <td>MPC</td>
+          <td>97%</td>
+        </tr>
+        </tr>
+
+      </tbody>
+    </table>
+
+  </div>
+
+
+
+
+  <!-- PROJECTS -->
+
+  <div id="section03" class="container" style="padding-top: 170px;">
+    <h2 class="section-title">Projects</h2>
+
+    <div class="accordion" id="accordionPanelsStayOpenExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse"
+            data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+            aria-controls="panelsStayOpen-collapseOne">
+            Gender prediction using CNN
+          </button>
+        </h2>
+        <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show"
+          aria-labelledby="panelsStayOpen-headingOne">
+          <div class="accordion-body">
+            <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin
+            adds the appropriate classes that we use to style each element. These classes control the overall
+            appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom
+            CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the
+            <code>.accordion-body</code>, though the transition does limit overflow.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+            aria-controls="panelsStayOpen-collapseTwo">
+            Tic Tac Toe
+          </button>
+        </h2>
+        <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
+          aria-labelledby="panelsStayOpen-headingTwo">
+          <div class="accordion-body">
+            <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse
+            plugin adds the appropriate classes that we use to style each element. These classes control the overall
+            appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom
+            CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the
+            <code>.accordion-body</code>, though the transition does limit overflow.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+            aria-controls="panelsStayOpen-collapseThree">
+            Benchmarking
+          </button>
+        </h2>
+        <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
+          aria-labelledby="panelsStayOpen-headingThree">
+          <div class="accordion-body">
+            <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin
+            adds the appropriate classes that we use to style each element. These classes control the overall
+            appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom
+            CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the
+            <code>.accordion-body</code>, though the transition does limit overflow.
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+
+  <!-- CERTIFICATIONS -->
+
+
+
+  <div id="section04" class="container" style="padding-top: 170px;">
+    <h2 class="section-title">Certificates</h2>
+
+    <div class="row">
+      <div class="col">
+
+        <div class="card" style="width: 18rem;">
+          <img src="WhatsApp Image 2022-05-24 at 2.05.45 PM.jpeg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Css Certification</h5>
+            <p class="card-text">This is the CSS certification from coursera </p>
+            <a href="https://www.coursera.org/account/accomplishments/certificate/K9V54KGQMNFJ"
+              class="btn btn-primary">Open Certification</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+
+        <div class="card" style="width: 18rem;">
+          <img src="WhatsApp Image 2022-05-24 at 2.05.51 PM.jpeg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">SQL Certification</h5>
+            <p class="card-text">This is the SQL certification from coursera </p>
+            <a href="https://www.coursera.org/account/accomplishments/certificate/K9V54KGQMNFJ"
+              class="btn btn-primary">Open Certification</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+
+        <div class="card" style="width: 18rem;">
+          <img src="WhatsApp Image 2022-05-24 at 2.06.03 PM.jpeg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Machine Learning </h5>
+            <p class="card-text">This is the Machine learning certification from coursera </p>
+            <a href="https://www.coursera.org/account/accomplishments/certificate/K9V54KGQMNFJ"
+              class="btn btn-primary">Open Certification</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+
+        <div class="card" style="width: 18rem;">
+          <img src="WhatsApp Image 2022-05-24 at 2.05.54 PM.jpeg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Python Certification</h5>
+            <p class="card-text">This is the Python certification from coursera </p>
+            <a href="https://www.coursera.org/account/accomplishments/certificate/K9V54KGQMNFJ"
+              class="btn btn-primary">Open Certification</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+
+
+  <!-- Pop over  -->
+
+
+  <div id="section06" class="container" style="padding-top: 50px;">
+
+    <button type="button" class="btn btn-lg btn-danger" data-toggle="popover" title="Feedback"
+      data-content="You really liked my portfolio. Right..?? Feel free to contact me.">Feedback</button>
+
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"
+    integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/4.2.2/masonry.pkgd.min.js"
+    integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous"
+    async></script>
+
+  <script>
+    var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-toggle="popover"]'));
+    var popoverList = popoverTriggerList.map(function (popoverTrigger) {
+      return new bootstrap.Popover(popoverTrigger);
+    });
+  </script>
+
+
+<!-- MODAL ELEMENT TnC -->
+
+<div id="section08" class="container" style="padding-top: 30px;">
+
+  <div class="container-fluid" style="align-items: center;">
+    <button type="button" class="btn btn-dark btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+      &nbsp;TERMS & CONDITIONS
+    </button>
+    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+      aria-labelledby="staticBackdropLabel" aria-hidden="true">
+      <div class="modal-dialog p-3 mb-2 bg-dark text-white">
+        <div class="modal-content p-3 mb-2 bg-dark text-white">
+          <div class="modal-header ">
+            <h7 class="modal-title " id="staticBackdropLabel">Terms & Conditions</h7>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            All the information given in the poerfolio is true according to my knowledge.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+
+  <!-- Collapse -->
+
+  <div id="section05" class="container" style="padding-top: 30px;">
+
+    <p>
+      <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false"
+        aria-controls="collapseExample">
+        Contact me ????
+      </a>
+    </p>
+    <div class="collapse" id="collapseExample">
+      <div class="card card-body">
+        You can call me at 857-576-1177.
+        <br></br>
+        Or You can connect with me with below social media links....!!!!!
+      </div>
+    </div>
+
+  </div>
+
+  <!-- BUTTONS -->
+
+  <footer>
+
+
+
+
+
+    <div id="section08" class="container" style="padding-top: 30px;">
+
+      <!-- a href button -->
+      <a class="btn btn-danger" href="https://www.linkedin.com/in/ajay-kumar-reddy-0ba989166/"
+        role="button">Linkedin</a>
+      <a class="btn btn-danger" href="https://github.com/ajayreddie" role="button">Github</a>
+      <a class="btn btn-danger" href="https://www.facebook.com/akr008/" role="button">Facebook</a>
+      <a class="btn btn-danger" href="https://www.instagram.com/mr_ajay_reddie/" role="button">Instagram</a>
+      <a class="btn btn-danger" href="https://twitter.com/MrAjayReddie" role="button">Twitter</a>
+
+    </div>
+  </footer>
+
+
+
+
+</body>
+
+</html>
